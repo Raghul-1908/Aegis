@@ -3,6 +3,7 @@
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![Privacy](https://img.shields.io/badge/Privacy-On--Device-success?style=for-the-badge&logo=shield&logoColor=white)
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/Raghul-1908/Aegis/releases/latest)
 
 > **A privacy-focused, on-device scam detection application.**
 
@@ -30,7 +31,13 @@ Aegis acts as a personalized, ultra-secure guardian for your smartphone. By leve
 
 ## 🚀 Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+### 📦 Quick Download
+The easiest way to install Aegis is to download the latest compiled APK:
+- **[Download the Latest APK from GitHub Releases](https://github.com/Raghul-1908/Aegis/releases/latest)**
+
+### 💻 Development & Building from Source
+
+These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
 
@@ -51,10 +58,17 @@ These instructions will get you a copy of the project up and running on your loc
    flutter pub get
    ```
 
-3. **Run the app:**
+3. **Run the app (Development):**
    ```bash
    flutter run
    ```
+
+4. **Build the Release APK:**
+   To generate your own standalone release APK, run:
+   ```bash
+   flutter build apk --release
+   ```
+   *The built APK will be located in `build/app/outputs/flutter-apk/app-release.apk`.*
 
 ## 🧠 How it Works
 
