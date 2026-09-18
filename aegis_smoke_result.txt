@@ -1,0 +1,13 @@
+SMOKE_STARTED
+tokenizer_initialization_success: false
+model_initialization_success: false
+empty_input_result: rejected safely
+empty_input_result: rejected safely
+dispose_1_result: success
+dispose_2_result: success
+SMOKE_EXCEPTION: ScamModelException: Unable to initialize ONNX model. (Bad state: flutter_embedder's codegen version (2.11.1) should be the same as runtime version (2.13.0). See https://cjycode.com/flutter_rust_bridge/guides/miscellaneous/upgrade/regular for details.)
+SMOKE_STACK: #0      AegisOnnxScamModel._initialize (package:aegis/ml/aegis_onnx_scam_model.dart:83:7)
+<asynchronous suspension>
+#1      main (package:aegis/onnx_smoke_main.dart:35:7)
+<asynchronous suspension>
+
