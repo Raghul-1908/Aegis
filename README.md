@@ -21,7 +21,6 @@ Aegis acts as a personalized, ultra-secure guardian for your smartphone. By leve
 
 ## 📸 Screenshots
 
-*(Add screenshots of your app here)*
 <p align="center">
   <img src="assets/icon.png" width="150" alt="Aegis Logo">
 </p>
